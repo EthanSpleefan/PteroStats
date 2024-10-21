@@ -5,7 +5,7 @@ version: 9 # Warning: Do not change this unless you know what you are doing!
 # App/Bot Presence Configuration
 presence:
   enable: true # Enable or disable app presence (true/false).
-  text: "Hosting Panel" # The status text shown by the app.
+  text: "FX Systems" # The status text shown by the app.
   type: "watching" # Available types: 'watching', 'playing', 'listening', 'competing'. (Note: 'streaming' is currently unsupported)
   status: "online" # Available types: 'online', 'idle', 'dnd', or 'invisible'
 
@@ -22,9 +22,9 @@ message:
 embed:
   panel:
     author:
-      name: "Hosting Panel" # Author name for the panel embed.
+      name: "EthanSpleefan" # Author name for the panel embed.
       icon: "" # Icon URL for the author of the panel embed.
-    title: "Panel Stats" # Title of the panel stats embed.
+    title: "FoundationX Systems" # Title of the panel stats embed.
     description: "Next update {{time}}" # Description for the panel. {{time}} will display the next refresh time.
     timestamp: false # Show the timestamp in the embed (true/false).
     color: "5865F2" # Embed color in hex format.
@@ -52,10 +52,10 @@ embed:
 button:
   enable: true # Enable or disable buttons in messages.
   row1:
-    - label: "Panel" # Label for the first button.
-      url: "https://panel.example.com" # URL for the first button.
-#    - label: "Dashboard" # Remove "#" at the start of the line to use this button
-#      url: "https://dash.example.com" # Remove "#" at the start of the line to use this button
+    - label: "Website" # Label for the first button.
+      url: "https://new.foundationxservers.com" # URL for the first button.
+    - label: "Status Page" # Remove "#" at the start of the line to use this button
+      url: "https://foundationxservers.statuspage.io/" # Remove "#" at the start of the line to use this button
 #  row2: # Remove "#" at the start of the line to use this row
 #    - label: "Backup Panel"
 #      url: "https://panel2.example.com"
@@ -76,7 +76,7 @@ nodes_settings:
   servers: false # Show server details (true/false).
   allocations_as_max_servers: false # Show allocations as max servers (true/false).
   host: false # Show node host (true/false).
-  unit: "byte" # Resource Unit, Available types: "byte" or "percentage".
+  unit: "percentage" # Resource Unit, Available types: "byte" or "percentage".
   uptime: true # Show node uptime (true/false).
   limit: 100 # Change how much node can will be displayed.
 
